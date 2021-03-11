@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "utf-8">
+        <title>Определение функции</title>
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <h1>Определение функции</h1>
+        <form>
+            Множество A <input type = "text" id = "set1"><br>
+            <br>
+            Множество B <input type = "text" id = "set2"><br>
+            <br>
+            Отношение R <input type = "text" id = "relation"><br>
+            <br>
+            <input type = "button" onclick = "define(set1.value, set2.value, relation.value)" value = "Определить"><br>
+            <br><br>
+            <div id = "result"></div>
+        </form>
+    </body>
+</html>
